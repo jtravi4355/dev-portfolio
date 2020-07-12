@@ -1,0 +1,10 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Brewer's Cookbook",
+      "img": "assets/img/beer-app-project.png",
+      "desc": "A website built to show API and data"
+    }
+  ]
+}
