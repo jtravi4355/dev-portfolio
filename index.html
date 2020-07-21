@@ -20,23 +20,18 @@
             <div class="logo">
               <h1>
                 <div class="fas fa-chevron-left fa-2x">
-                  <span class="logo-color-1 logo-font letter-spacing">JT</span>/
+                  <span class="logo-color logo-font letter-spacing">JT</span>/
                   <div class="fas fa-chevron-right"></div>
                 </div>
               </h1>
             </div>
             <ul class="menu-items">
               <li class="menu-item"><a href="#">Home</a></li>
-              <li class="menu-item"><a href="#about">About</a></li>
               <li class="menu-item"><a href="#projects">Projects</a></li>
+              <li class="menu-item"><a href="#about">About</a></li>
+
               <li class="menu-item"><a href="#contact">Contact</a></li>
             </ul>
-
-            <div class="burger">
-              <div class="line-1"></div>
-              <div class="line-1"></div>
-              <div class="line-1"></div>
-            </div>
           </div>
         </div>
       </div>
@@ -46,7 +41,7 @@
       <section class="hero-section">
         <div class="content">
           <h1>Jordan Travis</h1>
-          <h4>a web devloper.</h4>
+          <h4>web devloper.</h4>
 
           <div class="btn-container">
             <a class="btn btn-primary" href="#projects"
@@ -69,79 +64,9 @@
           <div class="section-head">
             <h1>My Projects</h1>
           </div>
-          <div class="projects-btn">
-            <button id="passion-btn" class="btn btn-1 active">
-              Passion Projects
-            </button>
-            <button id="learning-btn" class="btn btn-2">
-              Learning Projects
-            </button>
-            <button id="client-btn" class="btn btn-3">Client Work</button>
-          </div>
-          <div class="projects-container">
-            <div class="projects-desc">
-              <div id="passion-desc" class="active">
-                <p>
-                  These projects showcase work I have done building a project
-                  from the ground up.
-                </p>
-                <a href="#contact" class="btn btn-primary">Contact Me</a>
-              </div>
-              <div id="learning-desc" class="inactive">
-                <p>
-                  These projects inlcude those that I have learned through
-                  various teaching mediums, but I have added my own
-                  fuctionality.
-                </p>
-                <a href="#contact" class="btn btn-primary">Contact Me</a>
-              </div>
-              <div id="client-desc" class="inactive">
-                <p>
-                  These projects are those that I have done from various
-                  clients.
-                </p>
-                <a href="#contact" class="btn btn-primary">Contact Me</a>
-              </div>
-            </div>
 
-            <div class="projects-wrapper">
-              <div id="passion-project" class="project active">
-                <img
-                  class="project-img"
-                  src="./assets/img/beer-app-project.png"
-                  alt="Brewer's Cookbook"
-                />
-                <h1 class="project-title">Brewer's Cookbook</h1>
-                <div class="project-langs">
-                  <strong
-                    ><span class="lang-bg html">HTML</span>
-                    <span class="lang-bg css">CSS</span>
-                    <span class="lang-bg js">JavaScript</span>
-                    <span class="lang-bg react">React</span>
-                  </strong>
-                </div>
-                <div class="btn-control">
-                  <button class="btn">
-                    <a href="/projectpage-1.html">Read More</a>
-                  </button>
-                  <button class="btn">
-                    <a
-                      href="https://github.com/jtravi4355/beer-app-react"
-                      target="_blank"
-                    >
-                      GitHub
-                    </a>
-                  </button>
-                  <button class="btn"><a href="#">Site Link</a></button>
-                </div>
-              </div>
-              <div id="learning-project" class="project inactive">
-                <h1>Projects Coming Soon</h1>
-              </div>
-              <div id="client-project" class="project inactive">
-                <h1>Your project can go here!!</h1>
-              </div>
-            </div>
+          <div class="projects-container">
+            <div id="project-box" class="active"></div>
           </div>
         </div>
       </section>
@@ -150,6 +75,17 @@
       <section id="about" class="about">
         <div class="container">
           <div class="section-head"><h1>About Me</h1></div>
+          <div class="about-me">
+            <p>
+              Hello! I am a self-taught developer. I specialize in front end
+              React development with aspirations to learn the full stack as
+              well. My educational background is in the sciences, but I have a
+              passion for creating new things. During the COVID-19 pandemic I
+              began learning and fell in love with web development. I want to
+              use the skills I have learned to bring about new products and
+              services to aid in the mission of clients and companies.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -159,17 +95,25 @@
           <div class="section-head">
             <h1>Let's Work Together!</h1>
           </div>
-          <div class="contact-box">
-            <div class="contact-info">
-              <h2>Contact Details</h2>
-              <p>Email</p>
-              <div class="github-link">
-                <a href=""><div class="fab fa-github"></div></a>
-              </div>
-              <div class="linkedin-link">
-                <a href=""><div class="fab fa-linkedin"></div></a>
-              </div>
-            </div>
+          <div class="contact-info">
+            <h2>Contact Details</h2>
+            <p>Email: jrtravi4355@gmail.com</p>
+            <span class="github-link">
+              <a
+                href="https://github.com/jtravi4355?tab=repositories"
+                target="_blank"
+              >
+                <div class="fab fa-github fa-2x"></div>
+              </a>
+            </span>
+            <span class="linkedin-link">
+              <a
+                href="https://www.linkedin.com/in/jordan-travis-23a3471b2/"
+                target="_blank"
+              >
+                <div class="fab fa-linkedin fa-2x"></div>
+              </a>
+            </span>
           </div>
         </div>
       </section>
@@ -180,5 +124,6 @@
       </div>
     </footer>
     <script src="./projectsTabs.js"></script>
+    <script src="./projectItems.js"></script>
   </body>
 </html>

@@ -1,10 +1,26 @@
 {
-  "projects": [
+  "passionProjects": [
     {
       "id": 1,
       "title": "Brewer's Cookbook",
-      "img": "assets/img/beer-app-project.png",
-      "desc": "A website built to show API and data"
+      "img": "assets/img/beer-app.png",
+      "desc": "This website was developed using React. React routing is also used to take the user from the main beer item to another component that shows the ingredients and other information about the beer. The API on load will return a list of 25 items, but the user can put in a minimum ABV (Alcohol by Volume) to search for. This web app is hosted on Netlfiy. Eventually I would like to implement a back end so that users can upload their own recipies and share with their friends.",
+      "langs": ["HTML", "CSS", "JavaScript", "React"],
+      "links": [
+        { "name": "Website", "link": "#" },
+        { "name": "Github", "link": "#" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "ISS Tracker",
+      "img": "assets/img/iss-tracker-app.png",
+      "desc": "This app was build using vanilla JavaScript and fetch API. There are three APIs that are used. One to get the current location of the ISS, the second is to convert a user input of a zipcode into position coordinates and the third returns a list of the next passing of the ISS based on the user's zipcode entered. ",
+      "langs": ["HTML", "CSS", "JavaScript"],
+      "links": [
+        { "name": "Website", "link": "#" },
+        { "name": "Github", "link": "#" }
+      ]
     }
   ]
 }
