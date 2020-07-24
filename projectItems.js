@@ -22,7 +22,7 @@ const outputHTML = data => {
     data.passionProjects.map((project) => {
       output += `
           <div class="project">
-            <img class="project-img" src=${project.img} alt="Brewer's Cookbook"/>
+            <img class="project-img" src=${project.img} alt="${project.title}" target="_blank"/>
             <div class="title-langs">
             <h1 class="project-title">${project.title}</h1>
             <div class="project-langs">
