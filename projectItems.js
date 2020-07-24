@@ -22,7 +22,7 @@ const outputHTML = data => {
     data.passionProjects.map((project) => {
       output += `
           <div class="project">
-            <img class="project-img" src=${project.img} alt="${project.title}" target="_blank"/>
+            <img class="project-img" src=${project.img} alt="${project.title}" />
             <div class="title-langs">
             <h1 class="project-title">${project.title}</h1>
             <div class="project-langs">
@@ -41,7 +41,7 @@ const outputHTML = data => {
           <div class="source-links">
           ${project.links.map((link) => {
         console.log();
-        return (`<button class="source-btn btn"><a class="source-link" href="${link.link}">${link.name}</a></button>
+        return (`<button class="source-btn btn"><a class="source-link" href="${link.link}" target="_blank">${link.name}</a></button>
             `);
       }).join('')}
           </div>
