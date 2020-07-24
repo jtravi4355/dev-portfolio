@@ -7,8 +7,14 @@
       "desc": "This website was developed using React. React routing is also used to take the user from the main beer item to another component that shows the ingredients and other information about the beer. The API on load will return a list of 25 items, but the user can put in a minimum ABV (Alcohol by Volume) to search for. This web app is hosted on Netlfiy. Eventually I would like to implement a back end so that users can upload their own recipies and share with their friends.",
       "langs": ["HTML", "CSS", "JavaScript", "React"],
       "links": [
-        { "name": "Website", "link": "#" },
-        { "name": "Github", "link": "#" }
+        {
+          "name": "Website",
+          "link": "https://condescending-easley-8e2684.netlify.app/"
+        },
+        {
+          "name": "Github",
+          "link": "https://github.com/jtravi4355/beer-app-react"
+        }
       ]
     },
     {
@@ -19,7 +25,21 @@
       "langs": ["HTML", "CSS", "JavaScript"],
       "links": [
         { "name": "Website", "link": "#" },
-        { "name": "Github", "link": "#" }
+        { "name": "Github", "link": "https://github.com/jtravi4355/iss-app" }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Gif Aggregator",
+      "img": "assets/img/gify-api.png",
+      "desc": "This app uses an api from https://giphy.com/ to load the most recent trending gifs using React. The gifs are limited in batches of 10 and by clicking the load more button 10 more gifs will be loaded in addition to the gifs already present.",
+      "langs": ["HTML", "CSS", "JavaScript", "React"],
+      "links": [
+        { "name": "Website", "link": "#" },
+        {
+          "name": "Github",
+          "link": "https://github.com/jtravi4355/gify-clone-react"
+        }
       ]
     }
   ]
